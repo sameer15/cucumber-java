@@ -9,5 +9,3 @@ Feature: Kids spending money
 
   Scenario: Kid should see spend money button
     Given I am a logged in kid with an account balance greater than 0
-    When kid logs in using existing credentials
-    Then kid should not see the Spend Money Button
