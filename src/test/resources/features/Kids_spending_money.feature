@@ -8,4 +8,4 @@ Feature: Kids spending money
     Then I should be redirected to the ledgar screen
 
   Scenario: Kid should see spend money button
-    Given I am a logged in kid with an account balance greater than 0
+    Given I am a logged in kid with an account balance greater than 1
